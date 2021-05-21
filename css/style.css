@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+	height:2500px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+a, li, .navbar {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+	
+ }
+
+.logo{
+    display: block;
+    height: 80px;
+    background:#FFC600 url(../img/Logo2.svg) no-repeat 50% 50%;
+    z-index: 10000;
+	padding: 0 100px
+	
+	
+}
+
+.kind{
+    background:#F3400A ;
+    display: block;
+    width: 180px;
+    height: 48px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px 25px 0 0;
+   
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+.menu li{
+    list-style: none;
+    color: #fff;
+    padding-top: 30px;
+    white-space:nowrap;
+    margin: 0 20px;
+    
+    
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none; 
+    
+    
+    
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+     
+    
+}
+
+.menu {
+    height: 100%;
+    width:100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    word-wrap:normal;
+
+    
+}
+
+.calculator {
+    display: block;
+    width: 240px;
+    height: 58px;
+    color: #fff;
+    text-align: left;
+    padding-top: 22px;
+    padding-left: 80px;
+    background: rgba(0, 0, 0, 0.3) url(../img/calculator.svg) 40px 50% no-repeat;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.calculator:hover{
+    background: rgba(0, 0, 0, 0.5) url(../img/calculator.svg) 40px 50% no-repeat;
+    transition: all 0.5s ease-in-out;
+}
+
+.feedback {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    width: 240px;
+    height: 58px;
+    color: #fff;
+    text-align: left;
+    padding-top: 22px;
+    padding-left: 74px;
+    padding-right: 20px;
+    background: rgba(0, 0, 0, 0.3) url(../img/form.svg) 24px 20px no-repeat;
+}
+
+.feedback:hover{
+    background: rgba(0, 0, 0, 0.5) url(../img/form.svg) 24px 20px no-repeat;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Виды потолков */
+
+
+input {
+    display: none;
+  }
+  
+  .open {
+    background: url(../img/Lines2.svg);
+    width: 20px;
+    height: 12px;
+    display: block;
+    cursor: pointer;
+    top: 34px;
+    position: absolute;
+    margin-left: -5px;
+ }
+  
+ /* .open:before {
+    content: "";
+    background-color:#fff;
+    width: 20px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+    
+  }
+  
+  .open:after {
+    content: "";
+    background-color: #fff;
+    width: 20px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    top: 16px;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+  }
+  */
+  .menuOpen {
+    width: 24px;
+    height: 20px;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    float: right;
+  }
+  
+
+  
+  .menu2 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .95);
+    z-index: 10;
+  }
+  
+  .menu2 label {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-size: 100%;
+    cursor: pointer;
+  }
+  
+  .menu2 .menuContent {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .menu2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .menu2 ul li a {
+    
+    color: #fff;
+    
+   
+    text-decoration: none;
+    transition: color 0.2s;
+    
+    
+  }
+
+  .menu2 ul li{
+      margin: 10px 0;
+      padding: 10px 0;
+  }
+
+  
+  
+  .menu2 ul li a:hover {
+    color: #fff;
+   
+  }
+  
+  
+  
+  .menuEffects {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+  }
+  
+  .menuEffects ul {
+    transform: translateY(0%);
+    transition: all 0.5s;
+  }
+  
+  #menuToggle:checked ~ .menuEffects {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+  }
+  
+  #menuToggle:checked ~ .menuEffects ul {
+    opacity: 1;
+  }
+  
+  #menuToggle:checked ~ .menuOpen .open {
+    background:url(../img/../img/close.svg);
+	  width: 16px;
+	  height: 16px;
+	  z-index: 100;
+	  
+    
+  }
+#menuToggle:checked ~ .menuOpen .open:before{
+	content: 'закрыть меню';
+	color: #FFFFFF;
+	position: absolute;
+	margin-left: -120px;
+	bottom: 1px
+	
+}
+  
+  /*#menuToggle:checked ~ .menuOpen .open:before {
+    content: "";
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 8px;
+    right: 0;
+    z-index: 100;
+  }
+  
+  #menuToggle:checked ~ .menuOpen .open:after {
+    content: "";
+    background-color: white;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 8px;
+    right: 0;
+    z-index: 100;
+  }*/
+  
+  #menuToggle:not(:checked) ~ .menuEffects ul {
+    transform: translateY(-30%);
+  }
+
+
+ /* Стиль для рекламного текста */ 
+
+      a.ml12{
+		 position: absolute;
+      	 bottom: 22px;
+         background-color: #F3400A;
+         display: block;
+         text-align: center;
+         color: #fff;
+         font-size: 30px;
+         font-weight: 400;
+		 width: 100%;
+		 padding:15px 0
+ }
+
+
+
+/* Стиль подчеркивания ссылок */
+.underline{
+    position: relative;
+    color: #000;
+    font-weight: 300;
+}
+
+.underline::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffc600;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+
+.underline:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+   }
+
+
+
