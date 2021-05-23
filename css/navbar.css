@@ -444,5 +444,6 @@ a.ml12 {
 		font-size: 14px;
 		line-height: 21px;
 		bottom: 180px;
+		position: absolute;
 	}
 }
