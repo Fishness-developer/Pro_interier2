@@ -116,7 +116,7 @@ input {
 	cursor: pointer;
 	top: 34px;
 	position: absolute;
-	margin-left: -5px;
+	margin-left: -20px;
 	z-index: 10000;
 }
 
@@ -364,7 +364,7 @@ a.ml12 {
 }
 
 
-/* Адаптив для видов потолков */
+/* Адаптив */
 
 @media (max-width: 768px) {
 	a.ml12 {
