@@ -435,3 +435,96 @@ div.bg-img.bg-img-5 a:hover
 	background-color: #F3400A;
 	transition: all 0.2s ease-out;
 }
+
+
+/* Адаптив */ 
+@media (max-width: 768px) {
+div.bg-img.bg-img-1 h2,
+div.bg-img.bg-img-2 h2,
+div.bg-img.bg-img-3 h2,
+div.bg-img.bg-img-4 h2,
+div.bg-img.bg-img-5 h2
+{
+	font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 250px;
+	
+}
+	
+div.bg-img.bg-img-1 p,
+div.bg-img.bg-img-2 p,
+div.bg-img.bg-img-3 p,
+div.bg-img.bg-img-4 p,
+div.bg-img.bg-img-5 p
+{
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 24px;
+font-weight: 400;
+color: #fff;
+margin: 20px auto 40px auto;
+
+}
+	.nav-arrows span.nav-arrow-prev {
+	background: url(../img/left.svg) no-repeat;
+	background-color: rgba(0,0,0,0.2);
+	 margin-left: 20px;
+	width: 80px;
+	height: 80px;
+	left: 0;
+		 
+}
+
+.nav-arrows span.nav-arrow-next {
+	background:url(../img/right.svg) 0 50% no-repeat;
+	background-color: rgba(0,0,0,0.2);
+	right: 0; 
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	 
+}
+	
+	
+}
+
+@media (max-width: 320px) {
+div.bg-img.bg-img-1 h2,
+div.bg-img.bg-img-2 h2,
+div.bg-img.bg-img-3 h2,
+div.bg-img.bg-img-4 h2,
+div.bg-img.bg-img-5 h2
+{
+	font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 250px;
+	
+}
+	
+div.bg-img.bg-img-1 p,
+div.bg-img.bg-img-2 p,
+div.bg-img.bg-img-3 p,
+div.bg-img.bg-img-4 p,
+div.bg-img.bg-img-5 p
+{
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: #fff;
+margin: 20px auto 40px auto;
+
+}
+	
+	
+}
