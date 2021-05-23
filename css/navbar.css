@@ -296,6 +296,7 @@ input {
       width: 100%;
    }
 
+/* Гамбургер меню */
 
 .hamburger {
 	width:100%;
@@ -462,19 +463,27 @@ input {
 }
 
 @media (max-width: 500px){
-	.hamburger{
-		margin-top: 0 !important;}
+	.hamburger {
+		margin-top:  80px !important;}
 	.kind{
     white-space:nowrap;
 	text-align: left;
 	align-items:center;
+	margin-top: 80px;
 	 
    }
 	.logo{
-		display: none
-	/*padding: 0 80px;
-		width: 100%*/
+	 padding: 0 80px;
+		width: 100% 
 	}
-		
+	#menuArea{
+		position: absolute
+		 }
+	.open{
+		top:115px;
+	}
+	.menu2, .menu__box{
+		margin-top: 80px
+	}
 	 
 }
