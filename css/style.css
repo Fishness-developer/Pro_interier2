@@ -14,7 +14,8 @@ body{
 }
 
 .container_small{
-    width: 345px;
+  /*  width: 345px;*/
+	display: inline-block;
     
 }
 *{
@@ -60,10 +61,10 @@ h3{
 h4{
 
     font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+    font-size: 36px !important;
     font-weight: 500;
     text-transform: uppercase;
-    color: #fff;
+     
     margin: 0;
     line-height: 30px;
 }
@@ -73,7 +74,19 @@ h5{
     font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #fff;
+     
+    margin: 0;
+    line-height: 40px;
+    z-index: 20;
+
+}
+
+h6{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+     
     margin: 0;
     line-height: 40px;
     z-index: 20;
@@ -115,6 +128,10 @@ margin-top: 20px;
 
 .left_270{
     margin-left: 270px;
+}
+
+.left_180{
+    margin-left: 180px;
 }
 
 .right_30{
@@ -263,27 +280,33 @@ height:auto;
 
 .free{
     font-family: 'Oswald', sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
     color: #000;
-    margin: 10px 0 20px 0;
-    text-align: right;
-    padding:0 0 5px 0;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc600+1,ffc600+39,ffc600+39,ffffff+39,ffffff+99 */
-background: #ffc600; /* Old browsers */
-background: -moz-linear-gradient(left,  #ffc600 1%, #ffc600 39%, #ffc600 39%, #ffffff 39%, #ffffff 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #ffc600 1%,#ffc600 39%,#ffc600 39%,#ffffff 39%,#ffffff 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #ffc600 1%,#ffc600 39%,#ffc600 39%,#ffffff 39%,#ffffff 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+    margin: 15px 0 20px 00;
+    text-align: left;
+	padding-left: 100px;
+	line-height: 30px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc600+0,ffc600+44,ffffff+100&1+0,1+44,1+44,0+45,0+45,0+100 */
+background: -moz-linear-gradient(left,  rgba(255,198,0,1) 0%, rgba(255,198,0,1) 44%, rgba(255,199,5,0) 45%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,198,0,1) 0%,rgba(255,198,0,1) 44%,rgba(255,199,5,0) 45%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,198,0,1) 0%,rgba(255,198,0,1) 44%,rgba(255,199,5,0) 45%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
 
 
 
 }
 
-.container_small h3{
+.container_small h4{
     text-align: justify;
+	font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
 }
 
 .underline{
@@ -319,41 +342,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
       overflow: hidden;
       
     }
-    @media (max-width: 1440px)
+     
 
-    {
-        .img{
-            width:220px ;  
-            height:130px ;
-        }
-
-    }
-    @media (max-width: 1200px)
-
-    {
-        .img{
-            width:180px ;  
-            height:100px ;
-        }
-        .container_small h3,
-        .free{
-            line-height: 48px;
-        }
-        
-
-    }
-    @media (max-width: 991px)
-
-    {
-        .img:nth-child(3){
-           display: none;
-        }
-
-    }
+  
 
     .images{
-        position: absolute;
-        right: 0;
+        position: block;
+       
     }
 
     
@@ -445,43 +440,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
             flex-direction: column;
             justify-content: center;
         }
-        span.number{
-            font-size: 64px;
-            padding-left: 20px;
-        }
-        span.number:after{
-            font-size: 30px;
-            line-height: 80px;
-            padding-left: 10px;
-        }
         
-        h3{
-            font-size: 30px !important;
-            padding: 35px 0 0 100px !important;
-        }
            
     }
 
-    @media (min-width: 570px) and (max-width: 768px)
-    {
-
-        span.number{
-            font-size: 100px;
-            padding-left: 20px;
-        }
-        span.number:after{
-            font-size: 48px;
-            line-height: 100px;
-            padding-left: 30px;
-        }
-        
-        h3{
-            font-size: 36px !important;
-            padding: 45px 0 0 150px !important;
-        }
-
-
-    }
+   
       
   
 
@@ -910,11 +873,86 @@ p.name {
 	}
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
 	.page_content{
 		padding: 0 20px
 	}
+	.container_small{
+		padding-left: 20px
+	}
+	.images .img:nth-child(1){
+		display: none;
+	}
+	.images{
+		margin-right: 20px;
+		 
+	}
+	
+	.block_02 .container{
+		  display: flex;
+		  justify-content: center
+	  }
 }
+
+@media (max-width: 991px) {
+	.images .img:nth-child(2){
+		display: none;
+	}
+	
+}
+
+  @media (min-width: 0px) and (max-width: 599px)
+  {
+	  span.number{
+            font-size: 64px;
+            padding-left: 20px;
+        }
+        span.number:after{
+            font-size: 36px;
+            line-height: 60px;
+            padding-left: 10px;
+        }
+        
+       h3{
+      font-size: 24px !important;
+      padding: 30px 0 0 100px !important; 
+        }
+	  
+	  .images .img:nth-child(3){
+		display: none;
+	}
+	  .block_02{
+		  background: #fff;
+	  }
+	  .container_small{
+		float: none;
+		  padding-left: 0
+	 }
+	  
+	  
+}
+
+
+ @media (min-width: 570px) and (max-width: 768px)
+    {
+
+        span.number{
+            font-size: 100px;
+            padding-left: 20px;
+        }
+        span.number:after{
+            font-size: 48px;
+            line-height: 100px;
+            padding-left: 30px;
+        }
+        
+         h3{
+            font-size:  36px !important;
+            padding: 45px 0 0 150px !important; 
+        }
+
+
+    }
 
 @-webkit-keyframes fade {
   from {opacity: 0} 
