@@ -1017,7 +1017,7 @@ p.name {
      right: 0;
      padding: 10px 100px 10px 20px;
      background: #F3400A;
-     margin-top: -130px;
+     margin-top: -50px;
  }
 
 	 .text p.testimonial
@@ -1134,7 +1134,9 @@ p.name {
 	  .container .payment > img{
 		  margin: 0 10px
 	  }
-	  
+	  .block_06{
+		  padding-top: 20px
+	  }
 }
 
 
