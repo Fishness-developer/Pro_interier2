@@ -1017,13 +1017,13 @@ p.name {
      right: 0;
      padding: 10px 100px 10px 20px;
      background: #F3400A;
-     margin-top: -150px;
+     margin-top: -130px;
  }
 
 	 .text p.testimonial
 {
     font-family: 'PT Serif', serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 400;
     padding: 0;
@@ -1089,14 +1089,14 @@ p.name {
 	  
 	  .next {
   right: 0;  
-  background: url(../img/../img/right40_black.svg) no-repeat;
+  background: url(../img/../img/../img/../img/right40_black.svg) no-repeat;
  margin-right: 20px;
 }
 
 .prev {
     left: 0;
    
-    background: url(../img/../img/left40_black.svg) no-repeat;
+    background: url(../img/../img/../img/left40_black.svg) no-repeat;
     margin-left: 20px;
   }
 .text{
@@ -1104,6 +1104,36 @@ p.name {
 	margin-top: 0;
 }	  
 	  
+	  .container2 {
+			margin: 40px 0px !important
+		}
+	  
+	  .container2 ul{
+			margin: 0 20px
+		}
+	  
+	  .container .social {
+		  float:none !important;
+		  display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    
+    margin-top: 3px;
+	  }
+	  
+	  .container .payment{
+		 float:none !important;   
+		  display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+       
+       width:auto;
+	  }
+	  .container .payment > img{
+		  margin: 0 10px
+	  }
 	  
 }
 
@@ -1129,7 +1159,7 @@ p.name {
             font-size:  36px !important;
             padding: 45px 0 0 150px !important; 
         }
-
+		
 
     }
 
