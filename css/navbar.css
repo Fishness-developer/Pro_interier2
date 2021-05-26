@@ -78,6 +78,8 @@
 	transition: all 0.5s ease-in-out;
 }
 
+
+
 .feedback {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -363,6 +365,41 @@ a.ml12 {
 	color: rgba(0, 0, 0, 1.00)
 }
 
+.calculator_box {
+	display: block;	 
+	color: #fff;
+	height: 60px;
+	padding-left: 60px;
+	padding-top: 20px;
+	background:url(../img/calculator.svg) 20px 50% no-repeat;
+	}
+ .calculator_box:hover{
+	display: block;	 
+	color: #fff;
+	height: 60px;
+	padding-left: 60px;
+	padding-top: 20px;
+	background:url(../img/calculator_black.svg) 20px 50% no-repeat;
+	 background-color: #FFC600;
+	 color: rgba(0, 0, 0, 1.00);
+}
+.feedback_box {
+	display: block;	 
+	height: 60px;
+	color: #fff;
+	padding-left: 60px;
+	padding-top: 22px;
+	background:url(../img/form.svg) 20px 40% no-repeat;
+	}
+.feedback_box:hover{
+	display: block;	 
+	color: #fff;
+	padding-left: 60px;
+	padding-top: 22px;
+	background:url(../img/form_black.svg) 20px 40% no-repeat;
+	background-color: #FFC600;
+	color: rgba(0, 0, 0, 1.00);
+}
 
 /* Адаптив */
 
