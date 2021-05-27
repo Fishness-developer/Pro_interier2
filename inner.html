@@ -25,8 +25,7 @@
   
   <!--Виды Потолков Начало -->
   <div id="menuArea"> <a href="#" class="kind">виды потолков</a>
-    <input type="checkbox" id="menuToggle">
-    </input>
+    <input type="checkbox" id="menuToggle"></input>
     <label for="menuToggle" class="menuOpen">
     <div class="open"></div>
     </label>
@@ -113,6 +112,60 @@
      <div class="bottom_30">
       <h3 class="inner_header">НАТЯЖНЫЕ ПОТОЛКИ</h3>
 	  </div>
+	  <!-- Аккордеон -->
+	  <div id="container-main">
+
+ 
+
+	<div class="accordion-container">
+	
+		<a href="#" class="accordion-titulo"> Виды потолков <span class="toggle-icon"></span></a>
+		<div class="accordion-content">
+			<div class="sidebar">
+		 
+	  <ul>
+          <li><a href="#" class="underline">Матовые и глянцевые пвх </a></li>
+          <li><a href="#" class="underline">Тканевые потолки </a></li>
+          <li><a href="#" class="underline">Многоуровневые потоки </a></li>
+          <li><a href="#" class="underline">Фотопечать на потолке </a></li>
+          <li><a href="#" class="underline">Небо с облаками </a></li>
+          <li><a href="#" class="underline">Витраж на потолок </a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="underline">Парящие потолки </a></li>
+          <li><a href="#" class="underline">Теневые потолки </a></li>
+          <li><a href="#" class="underline">Световые Led потолки </a></li>
+          <li><a href="#" class="underline">Световые линии </a></li>
+          <li><a href="#" class="underline">С подсветкой Led </a></li>
+          <li><a href="#" class="underline">3D потолки </a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="underline">В квартире </a></li>
+          <li><a href="#" class="underline">В загороднем доме </a></li>
+          <li><a href="#" class="underline">В басcеине </a></li>
+          <li><a href="#" class="underline">В детской  комнате </a></li>
+          <li><a href="#" class="underline">В кухне </a></li>
+          <li><a href="#" class="underline">В ванне </a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="underline">Ниша для штор скрытая </a></li>
+          <li><a href="#" class="underline">Шумоизоляция потолка </a></li>
+          <li><a href="#" class="underline">Светильники для потолка </a></li>
+          <li><a href="#" class="underline">Фото наших работ </a></li>
+          <li><a href="#" class="underline">Цены на монтаж потолков</a></li>
+          <li><a href="#" class="underline">Скидки и акции </a></li>
+        </ul>
+	  
+	  </div>
+		</div>
+		
+	</div>
+	
+	
+
+</div>
+	  <!-- Конец Аккордеон -->
+	  
 	  <div class="inner_content">
 	  <div class="sidebar">
 		<h6>Виды потолков</h6>
@@ -400,5 +453,31 @@ anime.timeline({loop: true})
       dots[slideIndex-1].className += " active";
     }
     </script>
+
+	<!-- Аккордеон -->
+	<script>
+	
+
+	
+	$(function(){
+  $(".accordion-titulo").click(function(e){
+           
+        e.preventDefault();
+    
+        var contenido=$(this).next(".accordion-content");
+
+        if(contenido.css("display")=="none"){ //open		
+          contenido.slideDown(250);			
+          $(this).addClass("open2");
+        }
+        else{ //close		
+          contenido.slideUp(250);
+          $(this).removeClass("open2");	
+        }
+
+      });
+});
+		
+			</script>
 </body>
 </html>

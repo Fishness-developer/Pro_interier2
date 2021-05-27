@@ -710,6 +710,87 @@ p.name {
 	align-items: flex-start;
 	
 }
+
+
+
+/* Аккордеон */
+#container-main{
+	margin:40px auto;
+	width:270px;
+	display: none;
+	
+	 
+	 
+}
+
+.accordion-container {
+	width: 100%;
+	margin: 0 0 20px;
+	clear:both;
+}
+
+.accordion-titulo {
+	position: relative;
+	display: block;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	background: #FFC600;
+	color: #fff;
+	text-decoration: none;
+}
+.accordion-titulo.open2 {
+/*	background: #16a085;
+	color: #fff;*/
+}
+.accordion-titulo:hover {
+	/*background: #1abc9c;*/
+}
+
+.accordion-titulo span.toggle-icon:before {
+	content:"+";
+}
+
+.accordion-titulo.open2 span.toggle-icon:before {
+	content:"-";
+	margin-bottom: 10px
+}
+
+.accordion-titulo span.toggle-icon {
+	position: absolute;
+	 
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.accordion-content {
+	display: none;
+	padding: 0 20px;
+	overflow: auto;
+}
+
+.accordion-content p{
+	margin:0;
+}
+
+.accordion-content img {
+	display: block;
+	float: left;
+	margin: 0 15px 10px 0;
+	width: 50%;
+	height: auto;
+}
+
+
+@media (max-width: 767px) {
+	.accordion-content {
+		padding: 10px 0;
+	}
+}
+
+
+
 /* Адаптив */
 
 @media (max-width: 1600px) {
@@ -771,9 +852,12 @@ p.name {
 
 
 @media (max-width: 768px) {
-	.sidebar{
+	.inner_content .sidebar{
 		display: none
 	}
+	#container-main{
+		display: block
+	} 
 	.bradcrumbs{
 		
 		margin-left: 30px
