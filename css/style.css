@@ -856,6 +856,19 @@ p.name {
 	p.align_right{
 		margin-right: 150px
 	}
+	.container2  {
+		padding: 0 30px!important;
+		justify-content: left!important;
+	}
+	.block_06 .container2 ul {
+		margin: 50px 30px 0 0px;
+	}
+	
+	.block_06 .container {
+		padding: 0 30px!important;
+		justify-content: left!important;
+		margin-top: 50px!important
+	}
 	
 }
 
@@ -863,6 +876,7 @@ p.name {
 	.block_01 .container{
 		padding: 0 30px
 	}
+	
 }
 
 
@@ -886,7 +900,7 @@ p.name {
 		padding: 0 20px
 	}
 	.block_06 .container{
-		margin: 30px 20px 0 20px;
+		 margin: 30px 0px 0 0px; 
 	}
 }
 

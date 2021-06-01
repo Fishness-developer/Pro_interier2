@@ -407,7 +407,7 @@ a.ml12 {
 	a.ml12 {
 		font-size: 14px;
 		line-height: 21px;
-		bottom: 100px;
+		/*bottom: 100px;*/
 	}
 	.menu2 .menuContent {
 		text-align: justify;
@@ -480,7 +480,7 @@ a.ml12 {
 	a.ml12 {
 		font-size: 14px;
 		line-height: 21px;
-		bottom: 180px;
+		/*bottom: 180px;*/
 		position: absolute;
 	}
 }
