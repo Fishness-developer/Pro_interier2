@@ -97,6 +97,9 @@ p {
 .bottom_30 {
 	margin-bottom: 30px;
 }
+.bottom_50 {
+	margin-bottom: 50px;
+}
 .left_270 {
 	margin-left: 270px;
 }
@@ -467,7 +470,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
 	line-height: 30px;
 }
 .block_06 .container2 ul {
-	margin: 50px 20px 0 20px;
+	margin: 50px 20px 0 0px;
 	padding: 0;
 }
 .block_06 .container2 ul:nth-child(1) {
@@ -561,6 +564,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
 	margin-top: -76px;
 	z-index: 1;
 }
+
+a.tel{
+	color: #ffffff;
+	font-weight: 500;
+}
 /* Слайдер отзывы */
 
 
@@ -629,7 +637,10 @@ p.name {
 	font-weight: 400;
 	padding: 0;
 	text-align: right;
-	margin: 0 0 50px 0;
+	/*margin: 0 0 50px 0;*/
+}
+p.align_right{
+	text-align: right
 }
 .name span {
 	background-color: #ffc600;
@@ -699,8 +710,9 @@ p.name {
 }
 
 .sidebar ul{
-	margin: 30px 0;
-	width: 270px;
+	margin: 10px 0;
+	width: 210px;
+	border-bottom: 2px dotted rgba(0,0,0,.5)
 }
 
 
@@ -836,11 +848,14 @@ p.name {
 	font-weight: 400;
 	padding: 0;
 	text-align: right;
-	margin: 0 0 50px 0;
+	margin: 0 150px 0 0; 
 }
 .text {
 	margin-top: 50px
 }
+	p.align_right{
+		margin-right: 150px
+	}
 	
 }
 
@@ -857,7 +872,7 @@ p.name {
 		display: none
 	}
 	#container-main{
-		display: block
+		display: none;
 	} 
 	.bradcrumbs{
 		
@@ -966,9 +981,14 @@ p.name {
 	font-weight: 400;
 	padding: 0;
 	text-align: right;
-	margin: 10px 20px 120px 0;
+	margin: 10px 20px 0px 0;
 	line-height: 24px;
 }
+	
+	p.align_right{
+		margin-right: 20px;
+		margin-bottom: 100px!important;
+	}
 .name span {
 	background-color: #ffc600;
 	padding: 1px 5px;
