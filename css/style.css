@@ -287,6 +287,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
 	margin-left: 30px;
 	overflow: hidden;
 }
+
+.img:nth-child(3):before {
+	content: '' url(../img/hit.png);
+	display: block;
+	width: 113px;
+	height: 61px;
+	position: absolute;
+	margin: -3px 0 0 170px;
+}
+
 .images {
 	position: block;
 }
@@ -1061,7 +1071,7 @@ p.name {
 	float: none !important;
 	display: flex;
 	align-items: flex-start;
-	justify-content: center;
+	justify-content: left;
 	text-align: justify;
 	margin-top: 3px;
 }
@@ -1069,9 +1079,10 @@ p.name {
 	float: none !important;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content:left;
 	text-align: justify;
 	width: auto;
+	margin-bottom: 10px
 }
 .container .payment > img {
 	margin: 0 10px

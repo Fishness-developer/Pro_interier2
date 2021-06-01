@@ -414,6 +414,7 @@ a.ml12 {
 		font-size: 14px;
 		align-items: flex-start;
 		height: 0;
+		justify-content: left;
 	}
 	.menu2 ul li {
 		margin: 0 20px;
