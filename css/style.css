@@ -521,35 +521,66 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
 }
 .social a {
 	display: block;
-	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 .fb {
-	background: url(../img/ant-design_facebook-outlined.svg) no-repeat;
-	width: 32px;
-	height: 32px;
-	margin-top: 1px;
+	background: url(../img/../img/social/facebook_white.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	 
+	transition: all 0.3s ease-in-out;
+}
+.fb:hover{
+	background: url(../img/../img/social/facebook.svg) no-repeat;
 }
 .twit {
-	background: url(../img/la_twitter-square.svg) no-repeat;
-	width: 36px;
-	height: 36px;
+	background: url(../img/../img/social/twitter_white.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
+}
+.twit:hover {
+	background: url(../img/../img/social/twitter.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
 }
 .vk {
-	background: url(../img/la_vk.svg) no-repeat;
-	width: 36px;
-	height: 36px;
+	background: url(../img/../img/social/vk_white.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
+}
+.vk:hover {
+	background: url(../img/../img/social/vk.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
 }
 .ok {
-	background: url(../img/ok.svg) no-repeat;
-	width: 36px;
-	height: 36px;
-	margin-top: 5px;
+	background: url(../img/../img/social/ok_white.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
+}
+.ok:hover {
+	background: url(../img/../img/social/ok.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
 }
 .in {
-	background: url(../img/gg_instagram.svg) no-repeat;
-	width: 36px;
-	height: 36px;
-	margin-top: 4px;
+	background: url(../img/../img/social/instagram_white.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
+}
+.in:hover {
+	background: url(../img/../img/social/instagram.svg) no-repeat;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
 }
 .cashback {
 	position: absolute;
