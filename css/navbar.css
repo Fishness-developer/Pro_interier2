@@ -474,9 +474,16 @@ a.ml12 {
 		margin-top: 80px;
 	}
 	.logo {
-		padding: 0 80px;
+		padding: 0;
 		width: 100%
 	}
+	.logo:after{
+	 
+	left: 50%;
+		 
+		width: 100%
+	 
+}
 	#menuArea {
 		position: absolute
 	}
