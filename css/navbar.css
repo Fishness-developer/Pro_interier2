@@ -9,9 +9,18 @@
 .logo {
 	display: block;
 	height: 80px;
-	background: #FFC600 url(../img/Logo2.svg) no-repeat 50% 50%;
+	background: #FFC600 url(../img/Logo2.svg) no-repeat 50% 35%;
 	z-index: 9999;
 	padding: 0 100px;
+}
+
+.logo:after{
+	content: 'натяжные потолки';
+	font-size: 10px;
+	color: #FFFFFF;
+	position: absolute;
+	margin: 53px 0px 0 -28px;
+	letter-spacing: 0.8px;
 }
 
 .kind {
