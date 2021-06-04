@@ -1147,7 +1147,7 @@ span.number:after {
 }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 	.menu2 ul li a{
 		font-size: 11px;
 		line-height: 16px;
