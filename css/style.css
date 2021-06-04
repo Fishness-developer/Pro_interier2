@@ -478,6 +478,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
 	font-weight: 300;
 	list-style: square;
 	line-height: 30px;
+	text-align: left;
 }
 .block_06 .container2 ul {
 	margin: 50px 20px 0 0px;
@@ -1144,6 +1145,24 @@ span.number:after {
 	font-size: 36px !important;
 	padding: 45px 0 0 150px !important;
 }
+}
+
+@media (max-width: 359px) {
+	.menu2 ul li a{
+		font-size: 11px;
+		line-height: 16px;
+	}
+	.menu2 ul li{
+		padding: 2px 0;
+		margin: 0 10px;
+	}
+	.menu2{
+		margin-top: 50px
+	}
+	a.ml12{
+		display: none
+	}
+	
 }
  @-webkit-keyframes fade {
  from {
