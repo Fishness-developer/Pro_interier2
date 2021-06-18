@@ -347,51 +347,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', end
 	transition: ease-in-out 0.3s;
 }
 .prd:nth-child(1) .item:nth-child(1) {
- background-image: url(../img/матовые-глянцевые-потолки.jpg);
+ background-image: url(../img/products/matovye-i-glyancivye.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .prd:nth-child(1) .item:nth-child(2) {
- background-image: url(../img/тканевые-потолки.jpg);
+ background-image: url(../img/products/tkanivye.jpg);
 	background-size: cover;
+	 
 }
 .prd:nth-child(2) .item:nth-child(1) {
- background-image: url(../img/Многоуровневые-потолки.jpg);
+ background-image: url(../img/products/mnogourovnivye.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .prd:nth-child(2) .item:nth-child(2) {
- background-image: url(../img/световой-потолок.jpg);
+ background-image: url(../img/products/svetovoi.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .item2:nth-child(1) {
- background-image: url(../img/парящие-потолки.jpg);
+ background-image: url(../img/products/paryashie.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .item2:nth-child(2) {
- background-image: url(../img/теневой-потолок-1.jpg);
+ background-image: url(../img/products/tenevoi.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .item3:nth-child(1) {
- background-image: url(../img/световые-линии.jpg);
+ background-image: url(../img/products/liniy.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .item3:nth-child(2) {
- background-image: url(../img/потолки-с-подсветкой.jpg);
+ background-image: url(../img/products/podsvetka.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .item4:nth-child(1) {
- background-image: url(../img/фотопечать-на-потолке.jpg);
+ background-image: url(../img/products/fotopechaty.jpg);
 	background-size: cover;
+	
 }
 .item4:nth-child(2) {
- background-image: url(../img/3Д-потолки.jpg);
+ background-image: url(../img/products/3D.jpg);
 	background-size: cover;
+	background-position: 50% 0;
 }
 .item5:nth-child(1) {
- background-image: url(../img/небо-на-потолке.jpg);
+ background-image: url(../img/products/nebo.jpg);
 	background-size: cover;
 }
 .item5:nth-child(2) {
- background-image: url(../img/звукоизоляция-под-натяжной-потолок.jpg);
+ background-image: url(../img/products/zvukoizolyazia.jpg);
 	background-size: cover;
 }
 .prd {
